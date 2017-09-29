@@ -1,0 +1,10 @@
+<div>
+<div [@myState]=animationState >
+  <div [@flyInOut]="in" (@flyInOut.start)="animationStarted($event)" (@flyInOut.done)="animationDone($event)">
+  <h4 (mouseenter)="mouseEnter()" (mouseleave)="mouseLeave()">
+  This is my animation
+</h4>
+</div>
+</div>
+ 
+</div>
